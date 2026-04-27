@@ -1,0 +1,17 @@
+{"name": "cloak-dashboard",
+ "main": "src/index.ts",
+ "type": "javascript",
+ "compatibility_date": "2026-04-27",
+ "env": {
+  "production": {
+   "vars": {
+    "API_URL": "https://api.usecloak.org"
+   }
+  },
+  "development": {
+   "vars": {
+    "API_URL": "http://localhost:8000"
+   }
+  }
+ }
+}
